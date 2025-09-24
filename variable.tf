@@ -11,7 +11,7 @@ variable "ami_id" {
   default = "ami-01b6d88af12965bb6"
 }
 # Instance type of EC2
-variable "aws_instance" {
+variable "instance_type" {
   description = "Instance type"
   type = string
   default = "t2.micro"

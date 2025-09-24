@@ -12,7 +12,7 @@ provider "aws" {
 
 resource "aws_instance" "my-ec2" {
   ami = var.ami_id
-  instance_type = var.aws_instance
+  instance_type = var.instance_type
   count = 1
   tags = {
     "Name" = "Project-machine"
