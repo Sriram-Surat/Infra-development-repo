@@ -8,6 +8,8 @@ terraform {
 }
 provider "aws" {
   region = var.aws_region
+  access_key = "AKIAYDHKC7BNF6WXTLFB"
+  secret_key = "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"
 }
 
 resource "aws_instance" "my-ec2" {
